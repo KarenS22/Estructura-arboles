@@ -22,13 +22,20 @@ public class EstructuraU2Arboles {
         arbolBinario.insertarNodo(80);
         arbolBinario.insertarNodo(32);
         
-        System.out.println("PreOrder\n");
+      /*  System.out.println("\nPreOrder");
         
         arbolBinario.preOrder();
         
-        System.out.println("\nPostOrder\n");
+        System.out.println("\nPostOrder");
         
-        arbolBinario.postOrder();
+        arbolBinario.postOrder();*/
         
+        System.out.println("\nInOrder");
+        
+        arbolBinario.inOrder();
+        
+        System.out.println("\nInOrderRecursivo");
+        
+       // arbolBinario.inOrderRecursivo(nodo);
     }
 }
